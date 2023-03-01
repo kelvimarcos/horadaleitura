@@ -2,6 +2,8 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2? família=Pacifico&display=swap');
+
 @import url('https://fonts.googleapis.com/css2? família=Phudu&display=swap');
 
 @import url('https://fonts.googleapis.com/css2? família=Phudu:wght@300&display=swap');
@@ -9,14 +11,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
 
-
-
 :root { 
-    --font1:  'Phudu', cursivo;
+    --font1: 'pacific', cursive;
     
     --font2: 'Phudu', cursivo;
     
-    --font3: 'Dancing Script', cursiva;}
+    --font3: 'arial', cursiva;}
  
 
 
@@ -41,14 +41,15 @@ header { background-color: rgb(0, 156, 145);
     header > h1 { padding-top: 50px;
                 font-variant: small-caps;
             font-family: var(--font2);
-            font-size: 5vw;}
+            font-size: 30px bold;}
 
 /* text-transforme: colocar todas as fontes em maiúsculas*/
 
 
     header > p { 
         padding-top: 5px;
-        padding-bottom: 50px; }
+        padding-bottom: 50px;
+        font-size: 15px; }
 
 
   header a, footer  a {color: rgb(230, 230, 230);
@@ -57,14 +58,20 @@ header { background-color: rgb(0, 156, 145);
 
   header { background-image: url(imagens/Fundo1.png);
   background-size: cover; }
-  .audio {
-    
-    text-align: center;}
+.audio { text-align: right;
+        padding: 30px; }
+
+
+.audio > h1 { font-size: 12px;
+            color: white; 
+            text-align: right;}
 
 audio::-webkit-media-controls-timeline { display:flex;}
 
 audio {
   width: 40%;
+  text-align: justify;
+  text-align: right;
 }
 audio::-webkit-media-controls-enclosure {
   max-width: none
@@ -118,11 +125,14 @@ background-attachment: fixed;}
 
 section#img1 { background-image: url(imagens/baixados\ \(1\).jpeg);
 
-    background-position: right center ;}
+    background-position: justify ;}
     
-    section#img2 { background-image: url(imagens/A\ passagem\ no\ sertão.jpeg);
-    
-        background-position: right center}
+    section#img2 {
+      
+      background-image: url(imagens/A\ passagem\ no\ sertão.jpeg);
+
+      overflow: hidden;
+      background-position: justify}
     
             section > p { padding: 10px;}
 
