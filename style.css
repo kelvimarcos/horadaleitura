@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2? família=Phudu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? família=Phudu:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+
+
+
+:root { 
+    --font1:  'Phudu', cursivo;
+    
+    --font2: 'Phudu', cursivo;
+    
+    --font3: 'Dancing Script', cursiva;}
+ 
+
+
+*{margin: 0px;
+padding: 0px;}
+
+
+html, body {background-color: rgb(0, 167, 156);
+font-family: var(--font1);}
+
+
+header { background-color: rgb(0, 156, 145);
+        color: rgb(239, 240, 240);
+        text-align: center;
+        }
+
+        
+       
+
+
+
+    header > h1 { padding-top: 50px;
+                font-variant: small-caps;
+            font-family: var(--font2);
+            font-size: 5vw;}
+
+/* text-transforme: colocar todas as fontes em maiúsculas*/
+
+
+    header > p { 
+        padding-top: 5px;
+        padding-bottom: 50px; }
+
+
+  header a, footer  a {color: rgb(230, 230, 230);
+        text-decoration: underline;
+        }
+
+  header { background-image: url(imagens/Fundo1.png);
+  background-size: cover; }
+  .audio {
+    
+    text-align: center;}
+
+audio::-webkit-media-controls-timeline { display:flex;}
+
+audio {
+  width: 40%;
+}
+audio::-webkit-media-controls-enclosure {
+  max-width: none
+}
+audio::-webkit-media-controls-panel {
+  background-color: transparent
+}
+
+
+
+
+audio::-webkit-media-controls-current-time-display,
+
+audio::-webkit-media-controls-time-remaining-display {
+  color: #000000
+}
+    
+audio::-webkit-media-controls-panel {background-color: rgb(0, 111, 98);}
+
+a:hover {color: rgb(247, 255, 19);}
+
+section { padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--font3);
+        font-size: 3.5vw;}
+
+section.music {background-color: rgb(0, 98, 90);
+            text-align: right;
+          
+            box-shadow: rgb(1, 82, 82) 0px 0px 20px 4px;
+            
+           } 
+        
+
+        
+section.normal {background-image: url(imagens/Fundo2.png);
+background-position: right;}
+
+section.imagem { background-color: rgb(0, 76, 86);
+
+color: rgb(230, 230, 230); 
+
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);
+
+background-size: cover;
+
+background-attachment: fixed;}
+
+
+section#img1 { background-image: url(imagens/baixados\ \(1\).jpeg);
+
+    background-position: right center ;}
+    
+    section#img2 { background-image: url(imagens/A\ passagem\ no\ sertão.jpeg);
+    
+        background-position: right center}
+    
+            section > p { padding: 10px;}
+
+section.imagem > p { background-color: rgb(0, 0, 0);
+    
+    background-color: rgba(0, 103, 104, 0.582);
+
+    display: inline-block;
+
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.712);}
+
+footer { background-color: rgb(0, 141, 141);
+        text-align: center;
+        color: rgb(230, 230, 230);
+        padding: 15px;}
