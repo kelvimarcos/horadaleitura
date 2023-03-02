@@ -18,18 +18,13 @@
 *{margin: 0px;
 padding: 0px;}
 
-html, body {background-color: rgb(0, 167, 156);
-font-family: var(--font1);}
+html, body {background-color: rgb(0, 167, 156); }
 
 header { background-color: rgb(0, 156, 145);
         color: rgb(239, 240, 240);
         text-align: center;
         }
 
-    header > h1 { padding-top: 50px;
-                font-variant: small-caps;
-            font-family: var(--font2);
-            font-size: 30px bold;}
 
 /* text-transforme: colocar todas as fontes em maiúsculas*/
 
@@ -116,7 +111,7 @@ section#img1 { background-image: url(imagens/baixados\ \(1\).jpeg);
     
     section#img2 {
       
-      background-image: url(imagens/A\ passagem\ no\ sertão.jpeg);
+      background-image: url(imagens/Fundo3.png);
 
       overflow: hidden;
       background-position: center}
