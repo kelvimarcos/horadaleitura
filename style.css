@@ -105,13 +105,13 @@ background-size: cover;
 background-attachment: fixed;}
 
 
-section#img1 { background-image: url(imagens/baixados\ \(1\).jpeg);
+section#img1 { background-image: url(imagens/1350.png);
 
     background-position: center ;}
     
     section#img2 {
       
-      background-image: url(imagens/Fundo3.png);
+      background-image: url(imagens/1080.png);
 
       overflow: hidden;
       background-position: center}
