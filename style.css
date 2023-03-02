@@ -132,7 +132,7 @@ section#img1 { background-image: url(imagens/baixados\ \(1\).jpeg);
       background-image: url(imagens/A\ passagem\ no\ sertão.jpeg);
 
       overflow: hidden;
-      background-position: justify}
+      background-position: center}
     
             section > p { padding: 10px;}
 
