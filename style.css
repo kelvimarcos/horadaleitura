@@ -118,11 +118,18 @@ section#img1 { background-image: url(imagens/1350.png);
     section#img2 {
       
       background-image: url(imagens/1080.png);
-
-      overflow: hidden;
+    
       background-position: center}
     
             section > p { padding: 10px;}
+
+  section.normal1 { background-image: url(imagens/Fundo1.png);
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  background-repeat: repeat;
+  }
+
+    
 
 section.imagem > p { background-color: rgb(0, 0, 0);
     
